@@ -21,7 +21,7 @@ namespace dotnet_isolated_60
         {
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
-string date = "2022-12-09T12:12:12.271Z";
+string date = "2022-12-09T13:14:44.785Z";
 
             response.WriteString(date);
             return response;
